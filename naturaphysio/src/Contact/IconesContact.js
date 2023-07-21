@@ -5,6 +5,7 @@ import telephone_icone from "../images/contact/telephone.png";
 
 // Importe de la librairie de react-bootstrap
 import { Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const IconesContact = () => {
     return (
@@ -61,7 +62,8 @@ const IconesContact = () => {
                     </div>
                 </div>
 
-                <a href='/reservation'><button className="btn">Prendre un rendez-vous</button></a>
+                <Link to='/reservation'><button className="btn">Prendre un rendez-vous</button></Link>
+                {/* <a href='/reservation'><button className="btn">Prendre un rendez-vous</button></a> */}
 
             </div>
 

@@ -1,11 +1,14 @@
+import { Link } from "react-router-dom";
 
-const handleClickBtnService = (nom) => {
 
-    // Storage local de la valeur afin de la réutiliser plus tard
-    localStorage.setItem("service", nom);
-}
 
 const ListeServices = ({id, name, description, duree, image, prix, type, formData, setFormData}) => {
+
+    const handleClickBtnService = (nom) => {
+
+        // Storage local de la valeur afin de la réutiliser plus tard
+        localStorage.setItem("service", nom);
+    }
 
     return ( 
         <div className=" card-services w-100 border-1">
@@ -37,14 +40,14 @@ const ListeServices = ({id, name, description, duree, image, prix, type, formDat
                         </p>
                         
                         {/* Bouton qui réserve le service */}
-                        <a href="/reservation">
+                        {/* <Link to="/reservation">
                             <button 
                                 className="btn"
                                 role="button"
                                 onClick={() => {
                                     handleClickBtnService(id);
                                 }}
-                            >Réservez un rendez-vous</button></a>
+                            >Réservez un rendez-vous</button></Link> */}
                     </div>
                 </div>
                 

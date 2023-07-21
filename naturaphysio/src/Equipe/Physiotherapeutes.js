@@ -5,6 +5,7 @@ import { useState } from "react";
 
 // Fichier
 import { data_equipe_physio } from './physio_data';
+import { Link } from "react-router-dom";
 
 const Physiotherapeutes = ({setFormData, formData}) => {
 
@@ -57,13 +58,13 @@ const Physiotherapeutes = ({setFormData, formData}) => {
                         <div>{key.description}</div>
                         
                         {/* Faire une reservation avec le professionel */}
-                        <a href="/reservation" className="ps-0">
+                        <Link to="/reservation" className="ps-0">
                             <button 
                                 className="btn mt-3" 
                                 onClick={()=> {
                                     handleClickBtnEquipe(key.id);
                                 }}
-                            >Prendre un rendez-vous avec {key.nom}</button></a>                        
+                            >Prendre un rendez-vous avec {key.nom}</button></Link>                        
                     </div>
                 </div>
             ))}

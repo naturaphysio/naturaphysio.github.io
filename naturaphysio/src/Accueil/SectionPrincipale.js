@@ -33,7 +33,8 @@ const SectionPrincipale = () => {
                                 </Tooltip>
                             }
                         >
-                            <a href='/about'><button className="btn">Découvrir</button></a>
+                            {/* <a href='/about'><button className="btn">Découvrir</button></a> */}
+                            <Link to='/about'><button className="btn">Découvrir</button></Link>
                         </OverlayTrigger>
                         
                     </div>

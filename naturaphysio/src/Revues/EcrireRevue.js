@@ -3,6 +3,7 @@ import { Button, Form, Modal } from "react-bootstrap";
 import { Rating } from 'react-simple-star-rating'
 import { useState } from "react";
 import { Lang, useFormInputValidation } from "react-form-input-validation";
+import { Link } from "react-router-dom";
 
 const EcrireRevue = () => {
 
@@ -135,9 +136,9 @@ const EcrireRevue = () => {
                         Merci d'avoir soumis une revue pour NATURA physio. 
                     </Modal.Body>
                     <Modal.Footer>
-                        <a href="/review">
+                        <Link to="/review">
                             <Button variant="secondary" onClick={submitClose}>Fermer</Button>
-                        </a>
+                        </Link>
                     </Modal.Footer>
                 </Modal>
             }

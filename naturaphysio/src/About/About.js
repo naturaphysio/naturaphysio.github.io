@@ -60,11 +60,6 @@ const About = () => {
             {/* Section de widgets */}
             <PrquoiSection/>
 
-
-            <div className='videoAboutUs'>
-                <div className="video">**VIDÉO À venir dans la version finale</div>
-            </div>
-        
         </Container>
      );
 }

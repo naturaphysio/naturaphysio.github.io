@@ -38,11 +38,11 @@ const ServicesAdapte = () => {
                                         <div className="typeServices-btn">
                                         
                                             {/* Bouton qui redirige l'utilisateur */}
-                                            <a href={typeService.btnRef} onClick={() => {
+                                            <Link to={typeService.btnRef} onClick={() => {
                                                 if (typeService.id == 1) {
                                                     localStorage.setItem('service', typeService.id);
                                                 }
-                                            }}><button className="btn mt-4 mb-2">{typeService.bouton}</button></a>
+                                            }}><button className="btn mt-4 mb-2">{typeService.bouton}</button></Link>
                                         </div>
                                     
                                     </Accordion.Body>

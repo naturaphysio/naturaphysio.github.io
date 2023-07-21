@@ -30,7 +30,8 @@ const ServicesAffiche = () => {
                                 </Tooltip>
                             }
                         >
-                            <a href='/service'><button className="btn">Voir les services</button></a>
+                            {/* <a href='/service'><button className="btn">Voir les services</button></a> */}
+                            <Link to='/service'><button className="btn">Voir les services</button></Link>
                         </OverlayTrigger>
                         
                     </div>
@@ -55,7 +56,8 @@ const ServicesAffiche = () => {
                                 </Tooltip>
                             }
                         >
-                            <a href='/exercice'><button className="btn">Voir les vidéos</button></a>
+                            <Link to='/exercice'><button className="btn">Voir les vidéos</button></Link>
+                            {/* <a href='/exercice'><button className="btn">Voir les vidéos</button></a> */}
                         </OverlayTrigger>
                     </div>
                 </div>

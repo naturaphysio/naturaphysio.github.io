@@ -6,11 +6,18 @@ import { useState } from "react";
 // Fichiers
 import { data_equipe_physio } from "../../Equipe/physio_data";
 import { time_slots_data } from "../Page1/time_slots_data";
+import { Link } from "react-router-dom";
 
 const Confirmation = ({setFormData, formData}) => {
 
     // Variable
     const [dateRdv, setDateRdv] = useState([]);
+
+    // useEffect(() => {
+    //     // Reset le storage local 
+    //     localStorage.clear();
+    //     setFormData(...formData, "");
+    // });
 
     /**
      * Cette fonction est appelé afin d'afficher la date et l'heure sélectionnée
@@ -102,7 +109,8 @@ const Confirmation = ({setFormData, formData}) => {
                     <p>Dans le cas d'une annulation à moins de 24h d'avis, des fraits seront exigés.  </p>
                 </div>
 
-                <a href="/"><button className='btn' role="button">Retour à la page d'accueil</button></a>
+                <Link to="/"><button className='btn' role="button">Retour à la page d'accueil</button></Link>
+                {/* <a href="/"><button className='btn' role="button">Retour à la page d'accueil</button></a> */}
                 
                 {/* Si l'utilisateur annule son rendez-vous, le modal est affiché */}
                 <Modal
@@ -128,7 +136,8 @@ const Confirmation = ({setFormData, formData}) => {
                     </Modal.Body>
                     
                     <Modal.Footer className="justify-content-start">
-                        <a href="/"><button className="btn" onClick={handleClose} role="button">Retour à la page d'accueil</button></a>
+                        <Link to="/"><button className="btn" onClick={handleClose} role="button">Retour à la page d'accueil</button></Link>
+                        {/* <a href="/"><button className="btn" onClick={handleClose} role="button">Retour à la page d'accueil</button></a> */}
                     </Modal.Footer>
                 </Modal>
             </Container>
