@@ -1,0 +1,42 @@
+{
+    "translation": {
+        "nav_home": "Home",
+        "nav_about": "About",
+        "nav_about_team": "Our Team",
+        "nav_about_physio": "NATURA physio",
+        "nav_services": "Services",
+        "nav_exercices": "Exercises",
+        "nav_exercices_info": "Information",
+        "nav_exercices_video": "Videos",
+        "nav_review": "Reviews",
+        "nav_contact": "Contact",
+        "nav_booking_btn": "Book an appointment",
+        "nav_aide": "Help",
+        "nav_chatbot": "Chatbot",
+        "nav_faq": "FAQ",
+        "nav_lang": "FR",
+        "lang": "English",
+        "q1": "What's the difference between regular Physiotherapy and Manual Therapy Treatment?",
+        "rep_q1": "At our Ottawa Physiotherapy and Multi-Disciplinary clinic, you will experience manual Physiotherapy and Athletic Therapy treatments, where the focus is on one-on-one care involving evidence based manual and exercise therapy, instead of the use of machines and assistants. With so many options in the Ottawa area, know that you are receiving the highest quality care at NATURA physio.",
+        "q2": "How soon can I get an appointment?",
+        "rep_q2": "We understand when pain or injury becomes an emergency. We will do our best to get you seen by a member of our team as soon as possible. Please use our online booking tool to book an appointment. In the event of an emergency, you can call us at 613-109-9876,",
+        "q3": "Should I bring anything for my first visit?",
+        "rep_q3": "Please consider completing the online intake form, when booking an appointment, prior to your first visit. Otherwise, arrive a few minutes early to fill it out at our clinic.",
+        "q4": "What if my pain comes back?",
+        "rep_q4": "In the event that your pain returns or persists, please either call us at 613-109-9876 or schedule an appointment with a member of our team so that we can discuss your concerns and develop a plan for your needs. . We want all of our patients to leave us in an injury-free and pain-free state.",
+        "q5": "Are the treatments offered painful?",
+        "rep_q5": "In some cases, the treatments can be painful. Our therapists are trained to offer a variety of techniques, some of which are more painful than others. Throughout your session, they will take the time to communicate with you to ensure that you are comfortable with the level of pain.",
+        "q6": "How should I dress?",
+        "rep_q6": "It is suggested that you bring a change of clothes, such as shorts if you have a leg injury, or a short-sleeved vest if you have a shoulder injury.",
+        "q7": "What should I expect for the aquatherapy session?",
+        "rep_q7": "Before the first session, you will have to meet the physiotherapist and sign a form at the clinic. This will give you all the necessary information (location, what to bring, etc.) for the session. Please note that the session will be adapted to your needs.",
+        "msg_MessageParser": "help",
+        "msg1_bot": "Hello, my name is Bot",
+        "msg2_bot": "Enter the word 'help' so that I can help you.",
+        "bot_assistance": "Assistance",
+        "faq_h2": "Have a question? Check out our Frequently Asked Questions section."
+
+
+
+    }
+}

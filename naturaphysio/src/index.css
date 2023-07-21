@@ -1,0 +1,1153 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/*************************
+Page d'accueil
+*************************/
+
+/* Image principale sur la page d'accueil */
+.imagePrincipale img {
+  width: 100%;
+}
+
+.image img {
+  width: 100%;
+}
+
+/* Barre qui contient les icônes */
+.imgBarre {
+  background-color: #20596B;
+  padding: 20px;
+}
+
+/* Citation */
+blockquote {
+  background-color: #20596B;
+}
+
+blockquote p, blockquote p.blockquote-footer {
+  color: white;
+}
+
+
+.imgBarre .row.icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.row.w-75.pb-5.mx-auto.servicesAffiche .col-sm-12.col-md-2.p-3.pb-5.card-body .row {
+  padding-right: 0px !important;
+}
+
+.imgBarre .adresse img, .imgBarre .heuresOuvertures img {
+  height: 40px;
+  width: 40px;
+}
+
+.imgBarre p {
+  text-align: left;
+  margin-left: 15px;
+  color: white;
+  font-size: 12px;
+  margin-top: 0px;
+}
+
+.imgBarre .row.icons .col .adresse, .imgBarre .row.icons .col .heuresOuvertures {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.imgBarre .row {
+  display: flex;
+    flex-wrap: nowrap;
+}
+
+.imgBarre .row>* {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+/* Affiche une image en cercle */
+img.rounded-circle {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+}
+
+.imgBarre .row.icons .phone, .imgBarre .row.icons .mail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.imgBarre .row.icons .phone {
+  margin-top: 2px;
+}
+
+.imgBarre .phone_mail img {
+  height: 20px;
+  width: 20px;
+}
+
+.servicesAffiche p {
+  font-size: 14px;
+}
+
+.col-sm-12.col-md-2.p-3.pb-5.card-body button.btn {
+  top: 500px;
+}
+
+/* Pour le titre descriptif sur l'image principale du site */
+.titre-sur-image {
+  position: absolute;
+  right: 30px;
+  left: 80%;
+  bottom: 13%;
+  text-align: right;
+  color: #20596B;
+}
+
+/* Lorsque l'écran est plus petit que 1400px */
+@media (max-width: 1400px){
+  .titre-sur-image {
+    background-color: #FAFAF5;
+    padding: 10px;
+    left: 60%;
+    right: 20px;
+    bottom: 40%;
+  }
+  .titre-sur-image img {
+    width: 60%;
+  }
+
+  .titre-sur-image h3 {
+    font-size: 30px;
+  }
+}
+
+
+h1 {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+h3 {
+  /* font-family: 'Inter'; */
+  font-weight: 300;
+  font-size: 40px;
+  margin: 5px;
+}
+
+/* Section de merites et d'accomplissements de la physio */
+.iconSection {
+  background-color: #FAFAF5;
+}
+
+.iconSection .row.icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.iconSection .row.icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+.iconSection .col {
+  width: 400px;
+}
+
+.iconSection {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.iconSection p {
+  color: #20596B;
+}
+
+.iconSection .col img {
+  /* text-align: center; */
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+}
+
+.iconSection .row.description {
+  text-align: center;
+}
+
+/* Section d'information supplementaire */
+.extraInfoClasse {
+  background-color: #20596B;
+}
+
+.extraInfoContainer .col.image {
+  padding: 30px 80px;
+}
+.extraInfoContainer .col img{
+  color: white;
+  width: 400px;
+}
+
+.extraInfoContainer .col.extraInfo {
+  padding: 30px 80px 30px 0px;
+  text-align: left;
+}
+
+.extraInfoContainer .col .row p{
+  color: white;
+  text-align: left;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.extraInfoContainer {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.extraInfoContainer .extraInfo {
+  background-color: #20596B;
+  text-align: right;
+}
+
+/* Page des videos */
+.video_yoga, .video_aquatic, .video_orthopedie {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.formulaireContact input.form-control, .formulaireContact textarea.form-control {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+
+/*******************
+Bouton
+*******************/
+button {
+  border: none;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-family: 'Inter';
+  font-size: 13px;
+  font-weight: 450; 
+}
+
+/* Bouton de couleur bleu */
+button.btn {
+  background-color: #20596B;
+  color: white;
+}
+
+/* Bouton de couleur blanche */
+button.btn.white {
+  background-color: white;
+  color: #20596B;
+}
+
+/* Hover du bouton & lorsqu'il est actif*/
+button.btn:hover, button.btn:hover:active {
+  outline: 1px solid  #20596B;
+  background-color: white;
+  color: #20596B;
+  cursor: pointer;
+}
+
+button.btn.white:hover, button.btn.white:hover:active {
+  outline: 1px solid white;
+  background-color: #20596B;
+  color: white;
+  cursor: pointer;
+}
+
+/* Types de services pour les patients */
+.typeServicesClasse {
+  padding: 20px 40px;
+  background-color: #FAFAF5;
+  color: #20596B;
+}
+
+/* Boutons qui changent de page sur la page de reservation */
+.form-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.typeServices .typeServicesCartes .typeServices-titre {
+  text-align: left;
+}
+
+
+
+/*************************
+Barre de navigation
+**************************/
+
+/* Barre de navigation */
+.navbar {
+  background-color: #12718F;
+}
+
+/* Le collapsible de la barre de navigation */
+.navbar-expand-lg .navbar-collapse {
+  display: flex;
+  flex-basis: auto;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: space-between;
+}
+
+.navbar>.container {
+  display: block !important;
+}
+
+/* Lorsque l'écran est plus petit qu 1200px */
+@media (max-width:1200px) {
+  .navbar {
+    background-color: #12718F;
+    flex-basis: auto;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .topNav {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .navbar-expand-lg .navbar-collapse {
+    display: flex ;
+    flex-basis: auto;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-content: space-around;
+  }
+}
+
+/* Items de la barre de navigation */
+.nav-link {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  color: white !important;
+}
+
+/* Quand hover les items de la barre de navigation */
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.topNav {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-expand-lg .navbar-nav .navbarLiens.nav-link {
+  padding: 30px;
+}
+
+.navbarLiens .nav-link {
+  padding: 5px;
+  padding-bottom: 15px;
+}
+
+h3.mb-3.text-center, h2.mb-3.mt-5.text-center {
+  color: #20596B;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* Les éléments qui se trouvent dans les listes déroulantes */
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Image du logo dans barre de navigation */
+.navbar img {
+  height: 60px;
+  padding: 0px;
+}
+
+.navbar-nav {
+  margin-left: 15px;
+  margin-right: 15px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Container principale */
+.container {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  max-width: 100% !important;
+}
+
+
+
+/*****************************
+Page de services
+*****************************/
+img.imgServices {
+  width: 300px;
+}
+
+.border-end.col-md-3 {
+  background-color: white;
+  width: 200px;
+  padding: 20px;
+  margin-top: 8px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.card-body-services.card-body {
+  border-radius: 5px;
+  margin: 8px;
+  padding: 6px;
+  width: 1000px;
+  text-align: center;
+}
+
+/* Services */
+.body-service {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+/* Section des services offerts */
+.servicesfferts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/****************************
+ Pied de page 
+ ****************************/
+
+footer {
+  background-color: rgba(18, 115, 145, 0.68);
+  padding: 20px 40px;
+}
+
+footer section.footerInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.row.medias img{
+  width: 20px;
+}
+
+/* Ligne droite blanche qui sert de separateur */
+hr.gauche, hr.droite {
+  height: 2px;
+  color: white;
+  border: none;
+  background-color: white;
+}
+
+hr.gauche {
+  width: 80%;
+  margin-left: 0px;
+}
+
+hr.droite {
+  width: 50%;
+  margin-right: 0px;
+}
+
+footer .col.gauche, footer .col.droite {
+  width: 300px;
+}
+
+.navbar .col, footer .col {
+  flex: none !important;
+}
+
+/* Mets les images sur la meme ligne que les descriptions */
+.col.gauche .adresse, .col.gauche  .phone {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Modifie la couleur des titres dans le footer */
+h6.text-uppercase.fw-bold {
+  color: white !important;
+}
+
+.gauche .adresse img, .gauche .phone img {
+  width: 20px;
+}
+
+.gauche p {
+  color: white;
+  font-size: 12px;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.gauche img.naturaPhysio {
+  height: 40px;
+}
+
+.centre {
+  display: flex;
+  
+  flex-direction: column;
+  align-items: start;
+}
+
+.centre a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
+.droite .heuresOuvertures p {
+  text-align: right;
+  color: white;
+  font-size: 12px;
+}
+
+.droite .mediasSociaux {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.droite .mediasSociaux img {
+  width: 20px;
+  padding-left: 10px;
+}
+
+
+
+/***********************
+Page A propos
+***********************/
+.container.aPropos .about, .container.notreEquipe .equipe {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.container.aPropos, .container.notreEquipe {
+  background-color: #FAFAF5;
+}
+
+.equipe, .about.w-75.mx-auto.pb-5.pt-3, .faq-titre{
+  padding-top: 29.05px;
+}
+
+/* Arrière-plan du container pour la page a propos */
+.container.physio {
+  background-color: #FAFAF5;
+  color: white;
+}
+
+.about hr, .equipe hr, .contact hr, .page1 hr, .page2 hr, .page3 hr, .faq hr {
+  height: 2px;
+  color: #20596B;
+  border: none;
+  background-color: #20596B;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.videoAboutUs {
+  width: 600px;
+  height: 300px;
+  background-color: white;
+  border: 1px solid #858383;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row h2, .row h2 {
+  font-family: 'Inter';
+  color: #20596B;
+  font-size: 35px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.aboutUsContainer {
+  display: flex;
+  padding-bottom: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.sectionCarteAbout {
+  display: flex;
+}
+
+.sectionAboutTravail {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+
+
+/**************
+Page equipe
+**************/
+
+.physio{
+  background-color: #FAFAF5;
+  padding: 20px;
+}
+
+.physio_equipe {
+  display: flex;
+}
+
+.masso_equipe {
+  display: flex;
+}
+
+.physio_equipe .col-8.extraInfo {
+  padding: 16px;
+  margin-right: 0px;
+  color: #20596B;
+}
+
+.masso_equipe .col-8.extraInfo {
+  padding: 20px;
+  margin-right: 50px;
+  color: #20596B;
+}
+
+.masso_equipe .col-8.extraInfo button, .physio_equipe .col-8.extraInfo button {
+  margin-top: 20px;
+}
+
+/* Change la couleur du titre h2 */
+h2.white {
+  color: #20596B;
+}
+
+.masso {
+  background-color: #FAFAF5;
+  display: flex;
+  padding: 20px;
+}
+
+.physio .col.image img, .masso .col.image img {
+  width: 250px;
+  padding: 20px;
+}
+
+
+
+/****************
+Page contact
+****************/
+.container.contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #FAFAF5;
+}
+
+.container.contact img {
+  width: 100%;
+}
+
+.infoContact {
+  padding: 20px;
+}
+
+.contact hr {
+  width: 375px;
+}
+
+.infoContact .adresse img , .infoContact .courriel img, .infoContact .telephone img{
+  width: 20px;
+}
+
+.infoContact p {
+  color: #20596B;
+  padding-left: 10px;
+}
+
+.contactFlex {
+  display: flex;
+}
+
+.infoContact .adresse, .infoContact .courriel, .infoContact .telephone {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.contact-col, .chatbot-body {
+  padding: 40px;
+  padding-left: 60px;
+}
+
+.infoContact .ouvertures p {
+  padding: 0px;
+  margin: 2px;
+}
+
+.infoContact button {
+  margin-top: 10px;
+}
+
+.contactForm {
+  background-color: #20596B;
+  display: flex;
+  padding: 50px;
+  padding-right: 0px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.col-sm-12.col-md-6.p-5.formulaireContact h3 {
+  text-align: center;
+  color: white;
+  margin-top: 0px;
+  font-size: 35px;
+}
+
+.col-sm-12.col-md-6.p-5.formulaireContact h4 {
+  text-align: center;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.contactForm .col {
+  vertical-align: bottom;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.form-control, input#prenom, input#nomFamille, input#courriel, input#telephone, input#dateNaissance, input#adresse, input#codePostal, input#codePostal {
+  width: 300px;
+  padding: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: left;
+  border-radius: 5px;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+}
+
+.form-control .center {
+  margin-left: 10px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.formulaire_contact {
+  text-align: center;
+}
+
+.formulaireContact.col {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Progressbar */
+.progressbar {
+  margin-bottom: 10px;
+  padding: 2em 0 3em; /* pour la barre dans l'arriere plan */
+  position: relative;
+  display: flex;
+  justify-content: space-between; /* donne de l'espace */
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Barre de progression */
+.progressbar::before, .progress {
+  content: "";
+  height: 5px !important;
+  position: absolute;
+  top: 60px; /* emplacement de la barre sur axe des y */
+  width: 100%;
+
+  /* couleur de la barre en arriere plan */
+  background-color: #D9D9D9;
+}
+
+/* Couleur de l'etape dans la barre de progression */
+.progress-step.progress-step-active {
+  background-color: #20596B;
+  color: white;
+}
+
+/* Barre de progres lorsque etape completee */
+.progress {
+  background-color: #20596B;
+  width: 0%;
+}
+
+.progress-step {
+  width: 60px;
+  height: 60px;
+  background-color: #ceced1;
+  color:#858383;
+  border-radius: 50%; /* forme un cercle */
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  transition: all .25s ease-out; /* fade-in/fade-out */
+}
+
+/* Labels des etapes de la barre de progression */
+.ProgressBar-stepLabel {
+  text-align: center;
+  display: block;
+  color: #858383;
+  font-family: var(--bs-body-font-family);
+  font-weight: 450;
+  position: absolute;
+  padding-top: 100px;
+  width: 25%;
+  transition: all .25s ease-out;
+}
+
+
+
+/*******************
+Page de reservation
+*******************/
+.page1, .page2, .page3 {
+  background-color: #FAFAF5;
+  padding: 40px;
+  padding-top: 29.05px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reserveBtn {
+  display: flex;
+  justify-content: center;
+}
+
+.page1 hr, .page2 hr, .page3 hr {
+  width: 290px;
+}
+
+.reservation-services, .reservation-infoPersonnelle, .reservation-confirmation {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+
+.reservation-services .titre-reservation-services, .reservation-infoPersonnelle, .titre-reservation-infoPersonnelle, .titre-reservation-confirmation {
+  text-align: center;
+  color: #20596B;
+}
+
+.annulationRdv {
+  background-color: #FAFAF5;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+.annulationRdv h2 {
+  margin-top: 0px;
+}
+
+.reservation-services .selection {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.reservation-services .selection .form-select, .react-datepicker__input-container input, select#professionel, select#service, select#heure {
+  width: 300px;
+  padding: 10px;
+  margin-top: 0px;
+  text-align: left;
+  border-radius: 5px;
+  border: var(--bs-border-width) solid var(--bs-border-color);;
+}
+
+.react-datepicker__input-container input {
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid #808080;
+  padding: 10px; 
+}
+
+.btnAnnulation {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page2-select {
+  text-align: left;
+}
+
+.page2-select p {
+  color: black;
+}
+
+.date-time p, .page1-select p, .page2-select p {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.date-time p.textDate {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.details-reservation-confirmation h2 {
+  color: #20596B;
+  margin-bottom: 2px;
+}
+
+.card-title h5, .card-body {
+  background-color: white;
+  font-size: 25px;
+  color: #20596B !important;
+}
+
+.card-body-services .col-sm-12.col-md-8 {
+  color: black;
+  font-size: 15px;
+  text-align: left;
+  padding: 10px;
+}
+
+/* Lorsqu'il y a une erreur dans les champs de saisies avec le formulaire */
+.reservation-page1-form .error, .reservation-page2-form .error, .form-revues .error {
+  color: red;
+  margin-left: 5px;
+}
+
+.card-body p {
+  margin: 0px;
+}
+
+.test {
+  margin: 10px;
+}
+
+.content {
+  background-color: #FAFAF5;
+}
+
+/* Centre les composantes */
+.center {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.reservation-services .center {
+  text-align: center;
+}
+
+/* Cartes */
+.card-body {
+  border: 1px solid #BDBDBD;
+  margin: 8px;
+  padding: 6px;
+  width: 80px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 1px 2px 2px #6a6a6a70;
+}
+
+.reservation-infoPersonnelle .form-label, .reservation-infoPersonnelle p {
+  margin-bottom: 2px;
+  margin-top: 10px;
+}
+
+.reservation-infoPersonnelle .form-label, .reservation-infoPersonnelle .form-check {
+  color: black;
+}
+
+.form-info {
+  display: flex;
+  text-align: left;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.reservation-infoPersonnelle .form-check {
+  margin-left: 8px;
+}
+
+.form-adresse {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+/* Pour les nouveaux patients */
+.form-nouveauPatient h2 {
+  margin-top: 30px;
+  margin-bottom: 2px;
+}
+
+.form-nouveauPatient p {
+  margin-bottom: 2px;
+  margin-top: 10px;
+}
+
+.form-nouveauPatient {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form-nouvPatient-questions {
+  margin-top: 10px;
+}
+
+.mainStepper {
+  padding: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stepper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #0b7c9f;
+}
+
+.barreNavig {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: #808080;
+}
+
+
+
+/*******************
+PAGE FAQ et chatbot
+*******************/
+
+/* Pour la page de chatbot */
+.assistantAide {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#faq-chat-img {
+  cursor: pointer;
+  z-index: 2;
+  transition: width 1s linear 2s;
+}
+
+/* Widget du chatbox */
+#close-chat-btn-aide {
+  width: 20px;
+  margin-top: 16px;
+  margin-left: 17px;
+  transition: all .3;
+}
+
+.msgAide {
+  background-color: white;
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.btn-aide {
+  width: 60px;
+  height: 60px;
+  background-color: #12718F;
+  border-radius: 50%;
+  border: 1px solid #20596B;
+}
+
+.faq_questions, .faq-questions {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.chatbot {
+  transition: all .3;
+}
+
+.faq-section {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}

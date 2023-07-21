@@ -1,0 +1,64 @@
+{
+    "services": [
+        {
+            "titre": "Consultation",
+            "description": "OH la vache! Consul",
+            "duree": "90min",
+            "id": 1
+        },
+        {
+            "titre": "Thérapie manuelle",
+            "description": "Thérapie manuelle",
+            "duree": "90min",
+            "id": 2
+        },
+        {
+            "titre": "Massage thérapeutique",
+            "description": "Thérapie manuelle",
+            "duree": "90min",
+            "id": 3
+        },
+        {
+            "titre": "Acuponcture",
+            "description": "Thérapie manuelle",
+            "duree": "90min",
+            "id": 4
+        },
+        {
+            "titre": "Aquathérapie",
+            "description": "Thérapie manuelle",
+            "duree": "90min",
+            "id": 5
+        },
+        {
+            "titre": "Dry needling",
+            "description": "Thérapie manuelle",
+            "duree": "90min",
+            "id": 6
+        },
+        {
+            "titre": "Ondes de choc",
+            "description": "Thérapie manuelle",
+            "duree": "90min",
+            "id": 7
+        },
+        {
+            "titre": "Consultation",
+            "description": "Thérapie manuelle",
+            "duree": "90min",
+            "id": 8
+        },
+        {
+            "titre": "Podologie",
+            "description": "Thérapie manuelle",
+            "duree": "90min",
+            "id": 9
+        },
+        {
+            "titre": "Médecine sportive",
+            "description": "Thérapie manuelle",
+            "duree": "90min",
+            "id": 10
+        }
+    ]
+}
