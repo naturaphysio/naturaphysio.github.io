@@ -1,5 +1,7 @@
 // Importe de la librairie de react
-import { BrowserRouter as Router, Route} from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+
 import { useState } from 'react';
 
 // Fichiers
@@ -46,7 +48,7 @@ function App() {
   }
   
   return (
-
+    
     <Router>
       <div className="App">
 
@@ -55,7 +57,7 @@ function App() {
 
         {/* Différentes pages du site */}
         <div className="content">
-
+          {/* <Switch> */}
             <Route exact path="/">
               <Accueil/>
             </Route>
@@ -99,9 +101,10 @@ function App() {
         
         {/* Pied de page du site */}
         <Footer/>
-          
+        {/* </Switch> */}
       </div>
     </Router>
+    
     
   );
 }
