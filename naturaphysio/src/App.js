@@ -18,34 +18,35 @@ import FAQ from './Aide/FAQ';
 import Revues from './Revues/Revues';
 import Exercice from './Exercice/Exercice';
 import AssistantAide from './Aide/AssistantAide';
+import PageNotFound from './PageNotFound';
 
 
 function App() {
   
-  // Variables
-  const [formData, setFormData] = useState({
-    service: "",
-    professionel: localStorage.getItem("professionel"),
-    dateRdv: new Date(),
-    heure: "",
-    prenom: "",
-    nomFamille: "",
-    courriel: "",
-    telephone: "",
-    estNouveauPatient: false,
-    dateNaissance: new Date(),
-    adresse: "",
-    codePostal: "",
-    aEtePatientDsPasse: false,
-    explicationProbleme: "",
-    remarqueDouleur: "",
-    commentaireAdditionel: "",
-  });
+  // // Variables
+  // const [formData, setFormData] = useState({
+  //   service: "",
+  //   professionel: localStorage.getItem("professionel"),
+  //   dateRdv: new Date(),
+  //   heure: "",
+  //   prenom: "",
+  //   nomFamille: "",
+  //   courriel: "",
+  //   telephone: "",
+  //   estNouveauPatient: false,
+  //   dateNaissance: new Date(),
+  //   adresse: "",
+  //   codePostal: "",
+  //   aEtePatientDsPasse: false,
+  //   explicationProbleme: "",
+  //   remarqueDouleur: "",
+  //   commentaireAdditionel: "",
+  // });
 
   // Méthode
-  const handleClickBtnEquipe = (nom) => {
-    setFormData({...formData, professionel: nom});
-  }
+  // const handleClickBtnEquipe = (nom) => {
+  //   setFormData({...formData, professionel: nom});
+  // }
   
   return (
     
@@ -67,7 +68,8 @@ function App() {
             </Route>
 
             <Route path="/service">
-              <Services setFormData={setFormData} formData={formData}/>
+              <Services />
+               {/* setFormData={setFormData} formData={formData}/> */}
             </Route>
 
             <Route path='/review'>
@@ -75,7 +77,9 @@ function App() {
             </Route>
 
             <Route exact path="/equipe">
-              <Equipe setFormData={setFormData} formData={formData} handleClick={handleClickBtnEquipe} />
+              <Equipe />
+              {/* setFormData={setFormData} formData={formData}/>  */}
+               {/* handleClick={handleClickBtnEquipe} /> */}
             </Route>
 
             <Route path="/contact">
@@ -83,7 +87,8 @@ function App() {
             </Route>
 
             <Route path='/reservation' exact>
-              <Reservation setFormData={setFormData} formData={formData} />
+              <Reservation />
+              {/* setFormData={setFormData} formData={formData} /> */}
             </Route>
 
             <Route path='/aide'>
@@ -96,6 +101,10 @@ function App() {
 
             <Route path="/exercice">
               <Exercice/>
+            </Route>
+
+            <Route path="*">
+              <PageNotFound/>
             </Route>
 
             <Redirect to="/"/>

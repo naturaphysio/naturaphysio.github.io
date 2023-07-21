@@ -35,10 +35,11 @@ const Page1 = ({setFormData, formData, page, handleChange}) => {
         }
     );
 
-    useEffect(() => {
-        // Reset le storage local 
-        localStorage.clear();
-    });
+    // useEffect(() => {
+    //     // Reset le storage local 
+    //     console.log("localStorage cleared");
+    //     localStorage.clear();
+    // });
 
     // Langage qui sera utilisee si les champs comporte des erreurs
     form.useLang(Lang.fr);

@@ -40,14 +40,14 @@ const ListeServices = ({id, name, description, duree, image, prix, type, formDat
                         </p>
                         
                         {/* Bouton qui réserve le service */}
-                        {/* <Link to="/reservation">
+                        <Link to="/reservation">
                             <button 
                                 className="btn"
                                 role="button"
                                 onClick={() => {
                                     handleClickBtnService(id);
                                 }}
-                            >Réservez un rendez-vous</button></Link> */}
+                            >Réservez un rendez-vous</button></Link>
                     </div>
                 </div>
                 

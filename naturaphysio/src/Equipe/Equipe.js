@@ -4,7 +4,9 @@ const Equipe = ({setFormData, formData, handleClick}) => {
     return ( 
         <>
             {/* Affiche la liste de tout les membres de l'équipe de la clinique */}
-            <Physiotherapeutes setFormData={setFormData} formData={formData} handleClick={handleClick}/>            
+            <Physiotherapeutes />
+             {/* setFormData={setFormData} formData={formData} /> */}
+             {/* handleClick={handleClick}/>             */}
         </>
      );
 }

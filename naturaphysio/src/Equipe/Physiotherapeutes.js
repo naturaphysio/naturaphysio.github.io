@@ -22,7 +22,7 @@ const Physiotherapeutes = ({setFormData, formData}) => {
      * @param {*} nom 
      */
     const handleClickBtnEquipe = (nom) => {
-        setFormData({...formData, professionel: nom});
+        // setFormData({...formData, professionel: nom});
         localStorage.setItem("professionel", nom);
     }
 

@@ -1,5 +1,5 @@
 // Importe de la librairie react
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 // Fichiers
 import Page1 from './Page1/Page1';
@@ -9,12 +9,38 @@ import BarreDeProgression from './BarreDeProgression';
 import { StepperContext } from './StepperContext';
 
 
-const Reservation = ({setFormData, formData}) => {
+const Reservation = () => { //{setFormData, formData}) => {
 
   // Variables
   const [page, setPage] = useState(0);
   const [userData, setUserData] = useState('');
   const [finalData, setFinalData] = useState([]);
+
+  // Variables
+  const [formData, setFormData] = useState({
+    service: localStorage.getItem("service"),
+    professionel: localStorage.getItem("professionel"),
+    dateRdv: new Date(),
+    heure: "",
+    prenom: "",
+    nomFamille: "",
+    courriel: "",
+    telephone: "",
+    estNouveauPatient: false,
+    dateNaissance: new Date(),
+    adresse: "",
+    codePostal: "",
+    aEtePatientDsPasse: false,
+    explicationProbleme: "",
+    remarqueDouleur: "",
+    commentaireAdditionel: "",
+  });
+
+  useEffect(() => {
+    // Reset le storage local 
+    // console.log("localStorage cleared");
+    localStorage.clear();
+});
 
   // Affiche les pages
   const displayPage = (step) => {
@@ -28,6 +54,7 @@ const Reservation = ({setFormData, formData}) => {
       default:
     }
   }
+  
 
   /**
    * Cette fonction augmente le numéro de la 
