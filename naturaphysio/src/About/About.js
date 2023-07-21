@@ -52,7 +52,7 @@ const About = () => {
                             Notre but est de faire en sorte que nos clients se sentent à l'aise afin que notre équipe discute 
                             de leurs préoccupations avec eux, afin de nous assurer que leurs attentes sont satisfaites.
                             <br/></p>
-                        <button className='btn' role="button" aria-placeholder='Bouton qui mène sur la page de réservation'>Réservez un rendez-vous</button>
+                        <button className='btn' role="button" aria-placeholder='Bouton qui mène sur la page de réservation'>Prendre un rendez-vous</button>
                     </div>
                 </div>
             </div>

@@ -27,7 +27,7 @@ function BarreNavigation () {
 
     return ( 
 
-        <Navbar expand="lg" className='p-4 shadow' sticky='top'>
+        <Navbar expand="lg" className='p-4 shadow' sticky='top' role="menu">
             <Container className='flex-column w-100'>
                 <Nav className=" pt-1" activeKey="/">
                     <Navbar.Toggle aria-controls="basic-navbar-nav"  className='me-auto' />
@@ -35,32 +35,32 @@ function BarreNavigation () {
                         <div className="col">
                             <Nav className="mx-auto">
                                 <Navbar.Brand><Link to="/" className='mx-auto p-0 pe-3'><img src={logo} alt=''/></Link></Navbar.Brand>
-                                <Link to="/" className='nav-link'>{t('nav_home').toUpperCase()}</Link>
+                                <Link to="/" role="menuitem" className='nav-link'>{t('nav_home').toUpperCase()}</Link>
                                 
                                 <NavDropdown title={t('nav_about').toUpperCase()} id="basic-nav-dropdown">
                                     <NavDropdown.Item><Link to="/equipe" className='dropdown-item'>{t('nav_about_team')}</Link></NavDropdown.Item>
                                     <NavDropdown.Item><Link to="/about" className='dropdown-item'>{t('nav_about_physio')}</Link></NavDropdown.Item>
                                 </NavDropdown>
                                 
-                                <Link to="/service" className='nav-link'>{t('nav_services').toUpperCase()}</Link>
-                                <Link to="/exercice" className='nav-link'>{t('nav_exercices').toUpperCase()}</Link>
-                                <Link to="/review" className='nav-link'>{t('nav_review').toUpperCase()}</Link>
-                                <Link to="/contact" className='nav-link'>{t('nav_contact').toUpperCase()}</Link>                                
+                                <Link to="/service" role="menuitem" className='nav-link'>{t('nav_services').toUpperCase()}</Link>
+                                <Link to="/exercice" role="menuitem" className='nav-link'>{t('nav_exercices').toUpperCase()}</Link>
+                                <Link to="/review" role="menuitem" className='nav-link'>{t('nav_review').toUpperCase()}</Link>
+                                <Link to="/contact" role="menuitem" className='nav-link'>{t('nav_contact').toUpperCase()}</Link>                                
                             </Nav>
                         </div>
 
                         <div className='topNav col'>
-                            <Nav.Item>
-                                <Link to='/reservation' className='nav-link pb-0 pt-0'><button className='btn white rounded-4'>{t('nav_booking_btn')}</button></Link>
+                            <Nav.Item role='presentation'>
+                                <Link to='/reservation' role="menuitem" className='nav-link pb-0 pt-0'><button className='btn white rounded-4'>{t('nav_booking_btn')}</button></Link>
                             </Nav.Item>
                             <div className="vr"></div>
-                            <NavDropdown title={t('nav_aide').toUpperCase()} id="basic-nav-dropdown">
-                                <NavDropdown.Item><Link to="/aide" className='dropdown-item'>{t('nav_faq')}</Link></NavDropdown.Item>
-                                <NavDropdown.Item><Link to="/chatbot" className='dropdown-item'>{t('nav_chatbot')}</Link></NavDropdown.Item>
+                            <NavDropdown  role='presentation' title={t('nav_aide').toUpperCase()} id="basic-nav-dropdown">
+                                <NavDropdown.Item><Link role="menuitem" to="/aide" className='dropdown-item'>{t('nav_faq')}</Link></NavDropdown.Item>
+                                <NavDropdown.Item><Link role="menuitem" to="/chatbot" className='dropdown-item'>{t('nav_chatbot')}</Link></NavDropdown.Item>
                             </NavDropdown>
                             <div className="vr"></div>
-                            <Nav.Item className='ms-2'>
-                                <button className='btn pb-0 pt-0'onClick={() => swapLanguage()}>{t('nav_lang')}</button>
+                            <Nav.Item className='ms-2'  role='presentation'>
+                                <button role="button" className='btn pb-0 pt-0'onClick={() => swapLanguage()}>{t('nav_lang')}</button>
                             </Nav.Item>
                         </div>
                     </Navbar.Collapse>   

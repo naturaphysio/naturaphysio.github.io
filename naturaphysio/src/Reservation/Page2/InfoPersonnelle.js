@@ -208,8 +208,8 @@ const InfoPersonnelle = ({setFormData, formData, page, handleChange, handleChang
 
                     {/* Pour passer à l'étape précédente ou suivante */}
                     <div className="form-btn pt-4 pb-3">
-                        <button value={page} className='btn' type="button" onClick={handleChangeMinus}>Passer à l'étape précédente</button>
-                        <button value={page} className="btn" type="submit">Placer la réservation</button>
+                        <button value={page} className='btn' type="button" onClick={handleChangeMinus}>Retour à l'étape précédente</button>
+                        <button value={page} className="btn" type="submit">Confirmer ma réservation</button>
                     </div>
                     
                 </form>

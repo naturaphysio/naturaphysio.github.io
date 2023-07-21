@@ -34,6 +34,18 @@
         "msg1_bot": "Bonjour, mon nom est Bot",
         "msg2_bot": "Entrer le mots 'aide' pour que je puisse vous aider.",
         "bot_assistance": "Assistance",
-        "faq_h2": "Vous avez des questions? Regarder notre section de questions frequemment posees."
+        "faq_h2": "Vous avez des questions? Regarder notre section de questions frequemment posees.",
+        "heures_ouvertures": "Heures d'ouvertures",
+        "heures_semaine": "Lundi-Vendredi: 9h - 19h",
+        "heures_samedi": "Samedi: 11h - 16h",
+        "heures_dimanche": "Dimanche: fermé",
+        "media": "Médias",
+        "tooltip_pinterest": "Vous serez redirigé sur Pinterest",
+        "tooltip_facebook": "Vous serez redirigé sur Facebook",
+        "tooltip_twitter": "Vous serez redirigé sur Twitter",
+        "tooltip_instagram": "Vous serez redirigé sur Instagram",
+        "lien_rapide_titre": "Liens Rapide",
+        "nav_contactez_nous": "Contactez-nous",
+        "nav_no_services": "Nos services"
     }
 }

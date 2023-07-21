@@ -112,7 +112,7 @@ const EcrireRevue = () => {
 
                     {/* Soumission de la revue */}
                     <div className="pt-3 center">
-                        <button className="btn" type="submit" role="button" >Soumettre</button>
+                        <button className="btn" type="submit" role="button" >Soumettre ma revue</button>
 
                     </div>
                     
@@ -136,8 +136,8 @@ const EcrireRevue = () => {
                         Merci d'avoir soumis une revue pour NATURA physio. 
                     </Modal.Body>
                     <Modal.Footer>
-                        <Link to="/review">
-                            <Button variant="secondary" onClick={submitClose}>Fermer</Button>
+                        <Link to="/">
+                            <Button variant="secondary" onClick={submitClose}>Fermer et retourner à la page d'accueil</Button>
                         </Link>
                     </Modal.Footer>
                 </Modal>

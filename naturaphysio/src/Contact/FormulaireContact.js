@@ -26,7 +26,7 @@ function FormulaireContact() {
         <Form.Control as="textarea" style={{fontFamily:"Arial"}} rows={5} placeholder='Message' required />
       </div>
       
-      <button className='btn white' type='sumbit'>Soumettre</button>
+      <button className='btn white' type='sumbit'>Soumettre le formulaire</button>
     </Form>
   );
 }
