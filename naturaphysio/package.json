@@ -1,7 +1,7 @@
 {
-  "name": "natura-physio",
+  "name": "naturaphysio",
   "version": "0.1.0",
-  "homepage": "https://natura-physio.github.io/",
+  "homepage": "https://naturaphysio.github.io/",
   "private": true,
   "dependencies": {
     "@date-io/date-fns": "^2.16.0",
