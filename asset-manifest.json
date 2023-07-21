@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1174b3ef.css",
-    "main.js": "/static/js/main.18bb9546.js",
+    "main.js": "/static/js/main.a27dbcb6.js",
     "static/js/787.3c192152.chunk.js": "/static/js/787.3c192152.chunk.js",
     "static/media/crescent_lunges_video.mp4": "/static/media/crescent_lunges_video.6acea3bb0a30d9f49aa6.mp4",
     "static/media/cobra_video.mp4": "/static/media/cobra_video.fba025e7223c4e989b06.mp4",
@@ -40,11 +40,11 @@
     "static/media/booking.png": "/static/media/booking.9782521dd1e5c17d2645.png",
     "index.html": "/index.html",
     "main.1174b3ef.css.map": "/static/css/main.1174b3ef.css.map",
-    "main.18bb9546.js.map": "/static/js/main.18bb9546.js.map",
+    "main.a27dbcb6.js.map": "/static/js/main.a27dbcb6.js.map",
     "787.3c192152.chunk.js.map": "/static/js/787.3c192152.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1174b3ef.css",
-    "static/js/main.18bb9546.js"
+    "static/js/main.a27dbcb6.js"
   ]
 }
